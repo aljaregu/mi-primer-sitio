@@ -1,6 +1,23 @@
+html, body{
+    box-sizing: border-box;
+    margin: 0;
+}
 body{
     color: deeppink;
     background: pink;
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+header{
+    background: deeppink;
+    display: flex;
+    justify-content: space-between;
+}
+header img{
+    height: 88px;
+}
+header nav{
+    color: pink;
+    display: flex;
+    align-items: center;
 }
